@@ -1,0 +1,20 @@
+# Linux x86_64, Python 3.11; see docs/installation.md.
+--extra-index-url https://download.pytorch.org/whl/cu130
+torch==2.11.0+cu130
+triton==3.6.0
+sglang==0.5.14
+sglang-kernel==0.4.4
+flashinfer-python==0.6.12
+flashinfer-cubin==0.6.12
+transformers==5.8.1
+evalplus==0.3.1
+numpy==2.3.5
+requests==2.34.2
+PyYAML==6.0.3
+Jinja2==3.1.6
+huggingface-hub==1.33.0
+safetensors==0.8.0
+sentencepiece==0.2.2
+protobuf==7.36.2
+nvidia-cuda-nvcc==13.0.88
+nvidia-cuda-cccl==13.0.85

@@ -1,0 +1,1574 @@
+{
+  "status": "EXACT_SOURCE_SNAPSHOT_NOT_PUBLIC_RELEASE",
+  "source_roots": {
+    "ouro14": "scripts/base_main_single/backends/ouro14/backend_chain",
+    "ouro26": "scripts/base_main_single/backends/ouro26/backend_chain",
+    "huginn": "scripts/base_main_single/backends/huginn/backend_chain",
+    "thinking": "scripts/thinking_main_completion_20261027/backends/thinking_chain"
+  },
+  "files": [
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/.python-version",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/.python-version",
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+      "bytes": 5
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/README.md",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/README.md",
+      "sha256": "3ca221464c5bb40f00a9666bf53e40074cd4d200885c46c9b7833cbc9ecff1eb",
+      "bytes": 4661
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/__main__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/__main__.py",
+      "sha256": "193517a49acd4bae4adbcf041d2374cba1da3bf36abcf09cc3477ae99454a759",
+      "bytes": 5598
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/tasks/humaneval_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/tasks/humaneval_custom.yaml",
+      "sha256": "eb31b0c925b37ea6bec4a38d4082e6a57c9d5466e53ffdc3943050df31b1d863",
+      "bytes": 425
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/tasks/humaneval_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/tasks/humaneval_plus_custom.yaml",
+      "sha256": "0917c3fb02b243caf23525e6ae06d7a50b2413d8646a5640b9b4d6da50bfa6e0",
+      "bytes": 935
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/tasks/mbpp_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/tasks/mbpp_custom.yaml",
+      "sha256": "9d945d5ec7a6077888b23b77e4c16532572ebec3a92b4ae2645029ecebbf15c2",
+      "bytes": 485
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/tasks/mbpp_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/tasks/mbpp_plus_custom.yaml",
+      "sha256": "5f6b74a3f99b4f8697005726b1abe41cdbaa0ff39fd19d1f7101714dfe46a783",
+      "bytes": 878
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/evaluations/tasks/utils.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/evaluations/tasks/utils.py",
+      "sha256": "dfd7540090ad23d67b565309312418520db6a0b8d0ede059eb1c44f89aad3ba0",
+      "bytes": 1136
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/experiment_tools/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/experiment_tools/__init__.py",
+      "sha256": "516288dd8adc908af6e750d7f8400ac3523f6d1c1394dee138ce86cec86bd0d1",
+      "bytes": 48
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/experiment_tools/config.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/experiment_tools/config.py",
+      "sha256": "90f9ece0227e52a891f4754f0936d9ea36fbd453b519620fc8623f9af57f6db2",
+      "bytes": 11732
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/experiment_tools/report.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/experiment_tools/report.py",
+      "sha256": "91f7e743bd2575cff3f544ad204fea9684d56e98e61f0cac6a67f2d37f67fa24",
+      "bytes": 8050
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/experiment_tools/result_parser.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/experiment_tools/result_parser.py",
+      "sha256": "7314bfc790cbc40f9d67bf008ddfc53eabb1f11908b87fe001e077872bcea37a",
+      "bytes": 14788
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/experiment_tools/run.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/experiment_tools/run.py",
+      "sha256": "35d91ea58a8a15fa1172ad9465e4065736bb41fa78831065eb87463637f84405",
+      "bytes": 10803
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/pyproject.toml",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/pyproject.toml",
+      "sha256": "332caf8885546c35e9499e833dcbd7092afbdd3dd290475098dcfdb185583a10",
+      "bytes": 497
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/integrations/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/integrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/integrations/flashinfer.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/integrations/flashinfer.py",
+      "sha256": "b935b97d9853d51eaf18e7cd1724bf9a3289dcc73ca157292291c0ce8cbd570d",
+      "bytes": 6292
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/integrations/huggingface.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/integrations/huggingface.py",
+      "sha256": "637a66eeca4281aeb0e8b84ec9f1ae6c2fda4e11a7c8be30d20538b100ad83e9",
+      "bytes": 7999
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/integrations/sglang.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/integrations/sglang.py",
+      "sha256": "9dd5441529ea7b13a137fb585ea18fc8bd6851104f2a9014f5e66c93e2197f81",
+      "bytes": 8592
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/__pycache__/pipeline.cpython-311.pyc",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/__pycache__/pipeline.cpython-311.pyc",
+      "sha256": "47e433e29f117dc53ee324e4a405afdf84341e211354ab9c1b4f7ff0b3c4ce78",
+      "bytes": 21229
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/__pycache__/wavefront.cpython-311.pyc",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/__pycache__/wavefront.cpython-311.pyc",
+      "sha256": "e385b5ac4222dd18dc1344e33a441789b863c1fdbd66c9e2dca63af943f3ca60",
+      "bytes": 8720
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/batch_pool.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/batch_pool.py",
+      "sha256": "09d3c579aa21dd95ce8bf06ed9fcdcf2d740f74c32b3fbc6f6631bd838a55839",
+      "bytes": 9243
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/branching/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/branching/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "sha256": "daea105a134569eee50e48cf696b0d89d69145d8b59a0dfd4d180239f7f14d4c",
+      "bytes": 8147
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/branching/manager.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/branching/manager.py",
+      "sha256": "9215f0a0e95daad40efc96f1058b2a929b8d8c33782cc10c82cac0903b94a1e7",
+      "bytes": 22241
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/buckets.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/buckets.py",
+      "sha256": "f91d4ee23b2ade398f03243ca8bf6f85f6e15b30620262fa6cd2d602ede072c7",
+      "bytes": 532
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/chain_pipeline.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/chain_pipeline.py",
+      "sha256": "a2f3ff71dde0407fa174a27c901d72e1028af6bcc7d9257abe93f1c6d06a1f36",
+      "bytes": 9369
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/cuda_graph.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/cuda_graph.py",
+      "sha256": "961bd9729b65783f597d4659be1d3b149b3e2c1d82d7e10e0f6d060edfa7f1af",
+      "bytes": 28125
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/decisions.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/decisions.py",
+      "sha256": "83d7af138085f8ec9ea5c4d598b3b1674e29b0be5e6895143fa4231a43c64348",
+      "bytes": 8310
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/executor.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/executor.py",
+      "sha256": "1e917d1f2ae9539d0c8768c4198a0f78a544efccb1961bdd85bc7cb43f45386b",
+      "bytes": 20659
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/graph_ops.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/graph_ops.py",
+      "sha256": "72dcf9f1bf8158c3fbd6368af383c1809f4e394699cd43e5662516e4aaf395e0",
+      "bytes": 13150
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/lookup_chain.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/lookup_chain.py",
+      "sha256": "8feb6eb43614d67ffb8f6bd93defcff8e90d5bf92c6e6f34a9e5d373d8a01f0e",
+      "bytes": 1900
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/metadata.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/metadata.py",
+      "sha256": "534f114d141db35721d16874acaea8df2284eaadaabca4a87cd5350962e13651",
+      "bytes": 10674
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/pipeline.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/pipeline.py",
+      "sha256": "ed4f2d95a82d30b9ec881bc738804d7e203b1467a4e7d2317d60e89d48adc6ca",
+      "bytes": 19113
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/request.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/request.py",
+      "sha256": "e894bf62303be1c4292e1fcf1b084bded9dab7ad36925f460bd7f9cfff452ba1",
+      "bytes": 20984
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/sampling/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/sampling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/sampling/distributions.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/sampling/distributions.py",
+      "sha256": "1bd0f62f67e669c9773f7bf282ca5cbcb03e0c5d0e2d09f83a580214b0e42bfa",
+      "bytes": 7592
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/sampling/policy.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/sampling/policy.py",
+      "sha256": "557791c6ddac1977733d62060d8b76f4e36f9b5844dd00d988c66e5ba7404def",
+      "bytes": 10868
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/sampling/rejection.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/sampling/rejection.py",
+      "sha256": "e125fecd54baf7397470d4efd2512f93c182aac5ad5bd4745fdb16baad263342",
+      "bytes": 10121
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/sampling/sampler.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/sampling/sampler.py",
+      "sha256": "aa21cfc29ae7bb47b1436bf87d269a6735d205ebdb605a36caea5b3052e1e153",
+      "bytes": 35509
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/loopspec/wavefront.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/loopspec/wavefront.py",
+      "sha256": "cba6c1f61ff249ee19d72648137720102edff7b6a5d6d105629d837226b291ba",
+      "bytes": 3478
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/components.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/components.py",
+      "sha256": "91d2c121eeede7d4fd66c0ec05d1cad357028d5cce1b7f662faf1ec4641ed081",
+      "bytes": 7623
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/contracts.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/contracts.py",
+      "sha256": "64088f509d6b093cc6fdc94f75b5c0655a75e34e81cbc8f9e608670a36105db3",
+      "bytes": 2691
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/ouro.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/ouro.py",
+      "sha256": "5dacc26207d559a5156349bb56d0eebaaefc4cdbbde36172c949abb356a12a0d",
+      "bytes": 5160
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/raven.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/raven.py",
+      "sha256": "34b225b870b32826eee6fac97a4984b4170b87b7f26d4c291e195ccfa88b6c0d",
+      "bytes": 6663
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/modeling/serving.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/modeling/serving.py",
+      "sha256": "a40394113f9dfc682cf00730a62f288d0e9bbfa6c739c7af674c76adb32d93de",
+      "bytes": 10741
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/__main__.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/__main__.py",
+      "sha256": "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987",
+      "bytes": 62
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/baseline_scheduler.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/baseline_scheduler.py",
+      "sha256": "38b9b474c0cc804fa1b615db1c3c592b66983eebad1bd08fd121b6c5be207710",
+      "bytes": 5853
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/cli.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/cli.py",
+      "sha256": "ade3f76fd051d31c7aafc575f0da1945f69929f4e48aa2486527f1787baeede7",
+      "bytes": 7123
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/loopspec_runner.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/loopspec_runner.py",
+      "sha256": "4ccaf8cbda5b875951cfcaa6ab623892b5241bf134f90331b977bc6c91e8164a",
+      "bytes": 9587
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/loopspec_scheduler.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/loopspec_scheduler.py",
+      "sha256": "c7487b47e648d90973cf5be4fcc6238d86d0fc494f8bb5c5488d55cbd3943ac6",
+      "bytes": 20224
+    },
+    {
+      "snapshot": "ouro14",
+      "path": "backends/ouro14/sglang_recurrent/server/metrics.py",
+      "source": "scripts/base_main_single/backends/ouro14/backend_chain/sglang_recurrent/server/metrics.py",
+      "sha256": "7dce3bb460ab550a86639d2514219439134399aaf3fad36a8eed155b73835bdf",
+      "bytes": 2102
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/.python-version",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/.python-version",
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+      "bytes": 5
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/README.md",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/README.md",
+      "sha256": "3ca221464c5bb40f00a9666bf53e40074cd4d200885c46c9b7833cbc9ecff1eb",
+      "bytes": 4661
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/__main__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/__main__.py",
+      "sha256": "193517a49acd4bae4adbcf041d2374cba1da3bf36abcf09cc3477ae99454a759",
+      "bytes": 5598
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/tasks/humaneval_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/tasks/humaneval_custom.yaml",
+      "sha256": "eb31b0c925b37ea6bec4a38d4082e6a57c9d5466e53ffdc3943050df31b1d863",
+      "bytes": 425
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/tasks/humaneval_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/tasks/humaneval_plus_custom.yaml",
+      "sha256": "0917c3fb02b243caf23525e6ae06d7a50b2413d8646a5640b9b4d6da50bfa6e0",
+      "bytes": 935
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/tasks/mbpp_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/tasks/mbpp_custom.yaml",
+      "sha256": "9d945d5ec7a6077888b23b77e4c16532572ebec3a92b4ae2645029ecebbf15c2",
+      "bytes": 485
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/tasks/mbpp_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/tasks/mbpp_plus_custom.yaml",
+      "sha256": "5f6b74a3f99b4f8697005726b1abe41cdbaa0ff39fd19d1f7101714dfe46a783",
+      "bytes": 878
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/evaluations/tasks/utils.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/evaluations/tasks/utils.py",
+      "sha256": "dfd7540090ad23d67b565309312418520db6a0b8d0ede059eb1c44f89aad3ba0",
+      "bytes": 1136
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/experiment_tools/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/experiment_tools/__init__.py",
+      "sha256": "516288dd8adc908af6e750d7f8400ac3523f6d1c1394dee138ce86cec86bd0d1",
+      "bytes": 48
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/experiment_tools/config.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/experiment_tools/config.py",
+      "sha256": "90f9ece0227e52a891f4754f0936d9ea36fbd453b519620fc8623f9af57f6db2",
+      "bytes": 11732
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/experiment_tools/report.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/experiment_tools/report.py",
+      "sha256": "91f7e743bd2575cff3f544ad204fea9684d56e98e61f0cac6a67f2d37f67fa24",
+      "bytes": 8050
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/experiment_tools/result_parser.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/experiment_tools/result_parser.py",
+      "sha256": "7314bfc790cbc40f9d67bf008ddfc53eabb1f11908b87fe001e077872bcea37a",
+      "bytes": 14788
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/experiment_tools/run.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/experiment_tools/run.py",
+      "sha256": "35d91ea58a8a15fa1172ad9465e4065736bb41fa78831065eb87463637f84405",
+      "bytes": 10803
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/pyproject.toml",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/pyproject.toml",
+      "sha256": "332caf8885546c35e9499e833dcbd7092afbdd3dd290475098dcfdb185583a10",
+      "bytes": 497
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/integrations/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/integrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/integrations/flashinfer.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/integrations/flashinfer.py",
+      "sha256": "b935b97d9853d51eaf18e7cd1724bf9a3289dcc73ca157292291c0ce8cbd570d",
+      "bytes": 6292
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/integrations/huggingface.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/integrations/huggingface.py",
+      "sha256": "637a66eeca4281aeb0e8b84ec9f1ae6c2fda4e11a7c8be30d20538b100ad83e9",
+      "bytes": 7999
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/integrations/sglang.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/integrations/sglang.py",
+      "sha256": "9dd5441529ea7b13a137fb585ea18fc8bd6851104f2a9014f5e66c93e2197f81",
+      "bytes": 8592
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/batch_pool.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/batch_pool.py",
+      "sha256": "09d3c579aa21dd95ce8bf06ed9fcdcf2d740f74c32b3fbc6f6631bd838a55839",
+      "bytes": 9243
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/branching/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/branching/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "sha256": "daea105a134569eee50e48cf696b0d89d69145d8b59a0dfd4d180239f7f14d4c",
+      "bytes": 8147
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/branching/manager.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/branching/manager.py",
+      "sha256": "9215f0a0e95daad40efc96f1058b2a929b8d8c33782cc10c82cac0903b94a1e7",
+      "bytes": 22241
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/buckets.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/buckets.py",
+      "sha256": "4ff4695132d4a716b7f27c6e98c531eb1c325f9d67052975d5f68ea530b05b51",
+      "bytes": 534
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/chain_pipeline.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/chain_pipeline.py",
+      "sha256": "a2f3ff71dde0407fa174a27c901d72e1028af6bcc7d9257abe93f1c6d06a1f36",
+      "bytes": 9369
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/cuda_graph.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/cuda_graph.py",
+      "sha256": "961bd9729b65783f597d4659be1d3b149b3e2c1d82d7e10e0f6d060edfa7f1af",
+      "bytes": 28125
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/decisions.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/decisions.py",
+      "sha256": "83d7af138085f8ec9ea5c4d598b3b1674e29b0be5e6895143fa4231a43c64348",
+      "bytes": 8310
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/executor.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/executor.py",
+      "sha256": "1e917d1f2ae9539d0c8768c4198a0f78a544efccb1961bdd85bc7cb43f45386b",
+      "bytes": 20659
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/graph_ops.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/graph_ops.py",
+      "sha256": "72dcf9f1bf8158c3fbd6368af383c1809f4e394699cd43e5662516e4aaf395e0",
+      "bytes": 13150
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/lookup_chain.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/lookup_chain.py",
+      "sha256": "d3d31baa2a698498318bbe4a236e8afa44752bb3d457764897b11c0fc4004c43",
+      "bytes": 1944
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/metadata.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/metadata.py",
+      "sha256": "534f114d141db35721d16874acaea8df2284eaadaabca4a87cd5350962e13651",
+      "bytes": 10674
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/pipeline.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/pipeline.py",
+      "sha256": "ed4f2d95a82d30b9ec881bc738804d7e203b1467a4e7d2317d60e89d48adc6ca",
+      "bytes": 19113
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/request.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/request.py",
+      "sha256": "e894bf62303be1c4292e1fcf1b084bded9dab7ad36925f460bd7f9cfff452ba1",
+      "bytes": 20984
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/sampling/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/sampling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/sampling/distributions.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/sampling/distributions.py",
+      "sha256": "1bd0f62f67e669c9773f7bf282ca5cbcb03e0c5d0e2d09f83a580214b0e42bfa",
+      "bytes": 7592
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/sampling/policy.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/sampling/policy.py",
+      "sha256": "557791c6ddac1977733d62060d8b76f4e36f9b5844dd00d988c66e5ba7404def",
+      "bytes": 10868
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/sampling/rejection.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/sampling/rejection.py",
+      "sha256": "e125fecd54baf7397470d4efd2512f93c182aac5ad5bd4745fdb16baad263342",
+      "bytes": 10121
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/sampling/sampler.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/sampling/sampler.py",
+      "sha256": "aa21cfc29ae7bb47b1436bf87d269a6735d205ebdb605a36caea5b3052e1e153",
+      "bytes": 35509
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/loopspec/wavefront.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/loopspec/wavefront.py",
+      "sha256": "cba6c1f61ff249ee19d72648137720102edff7b6a5d6d105629d837226b291ba",
+      "bytes": 3478
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/components.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/components.py",
+      "sha256": "91d2c121eeede7d4fd66c0ec05d1cad357028d5cce1b7f662faf1ec4641ed081",
+      "bytes": 7623
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/contracts.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/contracts.py",
+      "sha256": "64088f509d6b093cc6fdc94f75b5c0655a75e34e81cbc8f9e608670a36105db3",
+      "bytes": 2691
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/ouro.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/ouro.py",
+      "sha256": "5dacc26207d559a5156349bb56d0eebaaefc4cdbbde36172c949abb356a12a0d",
+      "bytes": 5160
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/raven.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/raven.py",
+      "sha256": "34b225b870b32826eee6fac97a4984b4170b87b7f26d4c291e195ccfa88b6c0d",
+      "bytes": 6663
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/modeling/serving.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/modeling/serving.py",
+      "sha256": "a40394113f9dfc682cf00730a62f288d0e9bbfa6c739c7af674c76adb32d93de",
+      "bytes": 10741
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/__init__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/__main__.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/__main__.py",
+      "sha256": "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987",
+      "bytes": 62
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/baseline_scheduler.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/baseline_scheduler.py",
+      "sha256": "38b9b474c0cc804fa1b615db1c3c592b66983eebad1bd08fd121b6c5be207710",
+      "bytes": 5853
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/cli.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/cli.py",
+      "sha256": "ade3f76fd051d31c7aafc575f0da1945f69929f4e48aa2486527f1787baeede7",
+      "bytes": 7123
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/loopspec_runner.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/loopspec_runner.py",
+      "sha256": "d860c32bd2026b558c2d385e813dc16cb07e564373f33931dabbeb9fba903d37",
+      "bytes": 9588
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/loopspec_scheduler.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/loopspec_scheduler.py",
+      "sha256": "c7487b47e648d90973cf5be4fcc6238d86d0fc494f8bb5c5488d55cbd3943ac6",
+      "bytes": 20224
+    },
+    {
+      "snapshot": "ouro26",
+      "path": "backends/ouro26/sglang_recurrent/server/metrics.py",
+      "source": "scripts/base_main_single/backends/ouro26/backend_chain/sglang_recurrent/server/metrics.py",
+      "sha256": "7dce3bb460ab550a86639d2514219439134399aaf3fad36a8eed155b73835bdf",
+      "bytes": 2102
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/.python-version",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/.python-version",
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+      "bytes": 5
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/README.md",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/README.md",
+      "sha256": "3ca221464c5bb40f00a9666bf53e40074cd4d200885c46c9b7833cbc9ecff1eb",
+      "bytes": 4661
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/__main__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/__main__.py",
+      "sha256": "193517a49acd4bae4adbcf041d2374cba1da3bf36abcf09cc3477ae99454a759",
+      "bytes": 5598
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/tasks/humaneval_custom.yaml",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/tasks/humaneval_custom.yaml",
+      "sha256": "eb31b0c925b37ea6bec4a38d4082e6a57c9d5466e53ffdc3943050df31b1d863",
+      "bytes": 425
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/tasks/humaneval_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/tasks/humaneval_plus_custom.yaml",
+      "sha256": "0917c3fb02b243caf23525e6ae06d7a50b2413d8646a5640b9b4d6da50bfa6e0",
+      "bytes": 935
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/tasks/mbpp_custom.yaml",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/tasks/mbpp_custom.yaml",
+      "sha256": "9d945d5ec7a6077888b23b77e4c16532572ebec3a92b4ae2645029ecebbf15c2",
+      "bytes": 485
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/tasks/mbpp_plus_custom.yaml",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/tasks/mbpp_plus_custom.yaml",
+      "sha256": "5f6b74a3f99b4f8697005726b1abe41cdbaa0ff39fd19d1f7101714dfe46a783",
+      "bytes": 878
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/evaluations/tasks/utils.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/evaluations/tasks/utils.py",
+      "sha256": "dfd7540090ad23d67b565309312418520db6a0b8d0ede059eb1c44f89aad3ba0",
+      "bytes": 1136
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/experiment_tools/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/experiment_tools/__init__.py",
+      "sha256": "516288dd8adc908af6e750d7f8400ac3523f6d1c1394dee138ce86cec86bd0d1",
+      "bytes": 48
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/experiment_tools/config.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/experiment_tools/config.py",
+      "sha256": "90f9ece0227e52a891f4754f0936d9ea36fbd453b519620fc8623f9af57f6db2",
+      "bytes": 11732
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/experiment_tools/report.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/experiment_tools/report.py",
+      "sha256": "91f7e743bd2575cff3f544ad204fea9684d56e98e61f0cac6a67f2d37f67fa24",
+      "bytes": 8050
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/experiment_tools/result_parser.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/experiment_tools/result_parser.py",
+      "sha256": "7314bfc790cbc40f9d67bf008ddfc53eabb1f11908b87fe001e077872bcea37a",
+      "bytes": 14788
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/experiment_tools/run.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/experiment_tools/run.py",
+      "sha256": "35d91ea58a8a15fa1172ad9465e4065736bb41fa78831065eb87463637f84405",
+      "bytes": 10803
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/pyproject.toml",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/pyproject.toml",
+      "sha256": "332caf8885546c35e9499e833dcbd7092afbdd3dd290475098dcfdb185583a10",
+      "bytes": 497
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/integrations/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/integrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/integrations/flashinfer.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/integrations/flashinfer.py",
+      "sha256": "b935b97d9853d51eaf18e7cd1724bf9a3289dcc73ca157292291c0ce8cbd570d",
+      "bytes": 6292
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/integrations/huggingface.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/integrations/huggingface.py",
+      "sha256": "637a66eeca4281aeb0e8b84ec9f1ae6c2fda4e11a7c8be30d20538b100ad83e9",
+      "bytes": 7999
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/integrations/sglang.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/integrations/sglang.py",
+      "sha256": "9dd5441529ea7b13a137fb585ea18fc8bd6851104f2a9014f5e66c93e2197f81",
+      "bytes": 8592
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/batch_pool.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/batch_pool.py",
+      "sha256": "09d3c579aa21dd95ce8bf06ed9fcdcf2d740f74c32b3fbc6f6631bd838a55839",
+      "bytes": 9243
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/branching/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/branching/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "sha256": "daea105a134569eee50e48cf696b0d89d69145d8b59a0dfd4d180239f7f14d4c",
+      "bytes": 8147
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/branching/manager.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/branching/manager.py",
+      "sha256": "9215f0a0e95daad40efc96f1058b2a929b8d8c33782cc10c82cac0903b94a1e7",
+      "bytes": 22241
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/buckets.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/buckets.py",
+      "sha256": "f91d4ee23b2ade398f03243ca8bf6f85f6e15b30620262fa6cd2d602ede072c7",
+      "bytes": 532
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/chain_pipeline.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/chain_pipeline.py",
+      "sha256": "a2f3ff71dde0407fa174a27c901d72e1028af6bcc7d9257abe93f1c6d06a1f36",
+      "bytes": 9369
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/cuda_graph.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/cuda_graph.py",
+      "sha256": "961bd9729b65783f597d4659be1d3b149b3e2c1d82d7e10e0f6d060edfa7f1af",
+      "bytes": 28125
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/decisions.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/decisions.py",
+      "sha256": "83d7af138085f8ec9ea5c4d598b3b1674e29b0be5e6895143fa4231a43c64348",
+      "bytes": 8310
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/executor.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/executor.py",
+      "sha256": "1e917d1f2ae9539d0c8768c4198a0f78a544efccb1961bdd85bc7cb43f45386b",
+      "bytes": 20659
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/graph_ops.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/graph_ops.py",
+      "sha256": "72dcf9f1bf8158c3fbd6368af383c1809f4e394699cd43e5662516e4aaf395e0",
+      "bytes": 13150
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/lookup_chain.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/lookup_chain.py",
+      "sha256": "8feb6eb43614d67ffb8f6bd93defcff8e90d5bf92c6e6f34a9e5d373d8a01f0e",
+      "bytes": 1900
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/metadata.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/metadata.py",
+      "sha256": "534f114d141db35721d16874acaea8df2284eaadaabca4a87cd5350962e13651",
+      "bytes": 10674
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/pipeline.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/pipeline.py",
+      "sha256": "ed4f2d95a82d30b9ec881bc738804d7e203b1467a4e7d2317d60e89d48adc6ca",
+      "bytes": 19113
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/request.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/request.py",
+      "sha256": "e894bf62303be1c4292e1fcf1b084bded9dab7ad36925f460bd7f9cfff452ba1",
+      "bytes": 20984
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/sampling/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/sampling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/sampling/distributions.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/sampling/distributions.py",
+      "sha256": "1bd0f62f67e669c9773f7bf282ca5cbcb03e0c5d0e2d09f83a580214b0e42bfa",
+      "bytes": 7592
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/sampling/policy.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/sampling/policy.py",
+      "sha256": "557791c6ddac1977733d62060d8b76f4e36f9b5844dd00d988c66e5ba7404def",
+      "bytes": 10868
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/sampling/rejection.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/sampling/rejection.py",
+      "sha256": "e125fecd54baf7397470d4efd2512f93c182aac5ad5bd4745fdb16baad263342",
+      "bytes": 10121
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/sampling/sampler.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/sampling/sampler.py",
+      "sha256": "aa21cfc29ae7bb47b1436bf87d269a6735d205ebdb605a36caea5b3052e1e153",
+      "bytes": 35509
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/loopspec/wavefront.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/loopspec/wavefront.py",
+      "sha256": "cba6c1f61ff249ee19d72648137720102edff7b6a5d6d105629d837226b291ba",
+      "bytes": 3478
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/components.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/components.py",
+      "sha256": "695455528d2965b84bba492407d4466b3a673374074b055aab41740dff4b7fe3",
+      "bytes": 7734
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/contracts.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/contracts.py",
+      "sha256": "309260da561dcab7e36d667861f70ffc601af9e7336dcbe39d0de95eb888971b",
+      "bytes": 2816
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/huginn_capture.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/huginn_capture.py",
+      "sha256": "e1b8f403ccf0007f5661876b00a7dac2f7987f8bc8ea9a5342d7ec15db90586f",
+      "bytes": 312
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/ouro.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/ouro.py",
+      "sha256": "5dacc26207d559a5156349bb56d0eebaaefc4cdbbde36172c949abb356a12a0d",
+      "bytes": 5160
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/raven.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/raven.py",
+      "sha256": "0903b3347f4e541a6fa872189c7ac3e482bbf7165c0894565979fc194497d344",
+      "bytes": 8547
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/modeling/serving.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/modeling/serving.py",
+      "sha256": "a40394113f9dfc682cf00730a62f288d0e9bbfa6c739c7af674c76adb32d93de",
+      "bytes": 10741
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/__init__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/__main__.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/__main__.py",
+      "sha256": "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987",
+      "bytes": 62
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/baseline_scheduler.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/baseline_scheduler.py",
+      "sha256": "38b9b474c0cc804fa1b615db1c3c592b66983eebad1bd08fd121b6c5be207710",
+      "bytes": 5853
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/cli.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/cli.py",
+      "sha256": "ade3f76fd051d31c7aafc575f0da1945f69929f4e48aa2486527f1787baeede7",
+      "bytes": 7123
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/loopspec_runner.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/loopspec_runner.py",
+      "sha256": "4ccaf8cbda5b875951cfcaa6ab623892b5241bf134f90331b977bc6c91e8164a",
+      "bytes": 9587
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/loopspec_scheduler.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/loopspec_scheduler.py",
+      "sha256": "c7487b47e648d90973cf5be4fcc6238d86d0fc494f8bb5c5488d55cbd3943ac6",
+      "bytes": 20224
+    },
+    {
+      "snapshot": "huginn",
+      "path": "backends/huginn/sglang_recurrent/server/metrics.py",
+      "source": "scripts/base_main_single/backends/huginn/backend_chain/sglang_recurrent/server/metrics.py",
+      "sha256": "7dce3bb460ab550a86639d2514219439134399aaf3fad36a8eed155b73835bdf",
+      "bytes": 2102
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/.python-version",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/.python-version",
+      "sha256": "49a506dd32096b010d75205acf3430c9ae6c40351888129499e5a5e487126c93",
+      "bytes": 5
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/README.md",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/README.md",
+      "sha256": "3ca221464c5bb40f00a9666bf53e40074cd4d200885c46c9b7833cbc9ecff1eb",
+      "bytes": 4661
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/__main__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/__main__.py",
+      "sha256": "193517a49acd4bae4adbcf041d2374cba1da3bf36abcf09cc3477ae99454a759",
+      "bytes": 5598
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/tasks/humaneval_custom.yaml",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/tasks/humaneval_custom.yaml",
+      "sha256": "eb31b0c925b37ea6bec4a38d4082e6a57c9d5466e53ffdc3943050df31b1d863",
+      "bytes": 425
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/tasks/humaneval_plus_custom.yaml",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/tasks/humaneval_plus_custom.yaml",
+      "sha256": "0917c3fb02b243caf23525e6ae06d7a50b2413d8646a5640b9b4d6da50bfa6e0",
+      "bytes": 935
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/tasks/mbpp_custom.yaml",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/tasks/mbpp_custom.yaml",
+      "sha256": "9d945d5ec7a6077888b23b77e4c16532572ebec3a92b4ae2645029ecebbf15c2",
+      "bytes": 485
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/tasks/mbpp_plus_custom.yaml",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/tasks/mbpp_plus_custom.yaml",
+      "sha256": "5f6b74a3f99b4f8697005726b1abe41cdbaa0ff39fd19d1f7101714dfe46a783",
+      "bytes": 878
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/evaluations/tasks/utils.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/evaluations/tasks/utils.py",
+      "sha256": "dfd7540090ad23d67b565309312418520db6a0b8d0ede059eb1c44f89aad3ba0",
+      "bytes": 1136
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/experiment_tools/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/experiment_tools/__init__.py",
+      "sha256": "516288dd8adc908af6e750d7f8400ac3523f6d1c1394dee138ce86cec86bd0d1",
+      "bytes": 48
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/experiment_tools/config.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/experiment_tools/config.py",
+      "sha256": "90f9ece0227e52a891f4754f0936d9ea36fbd453b519620fc8623f9af57f6db2",
+      "bytes": 11732
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/experiment_tools/report.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/experiment_tools/report.py",
+      "sha256": "91f7e743bd2575cff3f544ad204fea9684d56e98e61f0cac6a67f2d37f67fa24",
+      "bytes": 8050
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/experiment_tools/result_parser.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/experiment_tools/result_parser.py",
+      "sha256": "7314bfc790cbc40f9d67bf008ddfc53eabb1f11908b87fe001e077872bcea37a",
+      "bytes": 14788
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/experiment_tools/run.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/experiment_tools/run.py",
+      "sha256": "35d91ea58a8a15fa1172ad9465e4065736bb41fa78831065eb87463637f84405",
+      "bytes": 10803
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/pyproject.toml",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/pyproject.toml",
+      "sha256": "332caf8885546c35e9499e833dcbd7092afbdd3dd290475098dcfdb185583a10",
+      "bytes": 497
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/integrations/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/integrations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/integrations/flashinfer.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/integrations/flashinfer.py",
+      "sha256": "b935b97d9853d51eaf18e7cd1724bf9a3289dcc73ca157292291c0ce8cbd570d",
+      "bytes": 6292
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/integrations/huggingface.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/integrations/huggingface.py",
+      "sha256": "637a66eeca4281aeb0e8b84ec9f1ae6c2fda4e11a7c8be30d20538b100ad83e9",
+      "bytes": 7999
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/integrations/sglang.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/integrations/sglang.py",
+      "sha256": "daf73023ec91ecabf285f16943230d494eaf60885b6ca46819840ce9be138d70",
+      "bytes": 8653
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/buckets.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/buckets.cpython-311.pyc",
+      "sha256": "a1ecb57ae8bdef338be3153ad98d2884777064b5cd5dd690eb73e138452b3693",
+      "bytes": 1484
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/chain_pipeline.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/chain_pipeline.cpython-311.pyc",
+      "sha256": "91cbd00141c5fc5eaa33597d34fa032599719045967dc1d181c821029e0f580a",
+      "bytes": 15215
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/executor.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/executor.cpython-311.pyc",
+      "sha256": "93528af8a8df1aceb620819dd240d339d7e873981a225fc5bc1936a777f9cb62",
+      "bytes": 28391
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/lookup_chain.cpython-310.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/lookup_chain.cpython-310.pyc",
+      "sha256": "d2763e4a309fc782489c0f90c06c354dfbc163bd3774d5ca080db2d4dc71057b",
+      "bytes": 1857
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/lookup_chain.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/lookup_chain.cpython-311.pyc",
+      "sha256": "55bceef436a0651e87cb4988de56819ae2f6b1ad606285835f90b5246b982c43",
+      "bytes": 3138
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/pipeline.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/pipeline.cpython-311.pyc",
+      "sha256": "b57665a5830f13f886ee53505181ba0485ea1ad5e5a71eb639a08cfa46702a76",
+      "bytes": 21219
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/__pycache__/wavefront.cpython-311.pyc",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/__pycache__/wavefront.cpython-311.pyc",
+      "sha256": "725b824e4013288f0135a582d948d9854434956937308e43a395184250d1f051",
+      "bytes": 8700
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/batch_pool.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/batch_pool.py",
+      "sha256": "09d3c579aa21dd95ce8bf06ed9fcdcf2d740f74c32b3fbc6f6631bd838a55839",
+      "bytes": 9243
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/branching/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/branching/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/branching/decode_slots.py",
+      "sha256": "daea105a134569eee50e48cf696b0d89d69145d8b59a0dfd4d180239f7f14d4c",
+      "bytes": 8147
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/branching/manager.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/branching/manager.py",
+      "sha256": "9215f0a0e95daad40efc96f1058b2a929b8d8c33782cc10c82cac0903b94a1e7",
+      "bytes": 22241
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/buckets.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/buckets.py",
+      "sha256": "4ff4695132d4a716b7f27c6e98c531eb1c325f9d67052975d5f68ea530b05b51",
+      "bytes": 534
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/chain_pipeline.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/chain_pipeline.py",
+      "sha256": "a2f3ff71dde0407fa174a27c901d72e1028af6bcc7d9257abe93f1c6d06a1f36",
+      "bytes": 9369
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/cuda_graph.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/cuda_graph.py",
+      "sha256": "961bd9729b65783f597d4659be1d3b149b3e2c1d82d7e10e0f6d060edfa7f1af",
+      "bytes": 28125
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/decisions.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/decisions.py",
+      "sha256": "83d7af138085f8ec9ea5c4d598b3b1674e29b0be5e6895143fa4231a43c64348",
+      "bytes": 8310
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/executor.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/executor.py",
+      "sha256": "2c52b1bf3f0fd556190b107ffb6dae8f78669cbf20a4d10a486c0745d2fd64f9",
+      "bytes": 20659
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/graph_ops.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/graph_ops.py",
+      "sha256": "72dcf9f1bf8158c3fbd6368af383c1809f4e394699cd43e5662516e4aaf395e0",
+      "bytes": 13150
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/lookup_chain.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/lookup_chain.py",
+      "sha256": "d3d31baa2a698498318bbe4a236e8afa44752bb3d457764897b11c0fc4004c43",
+      "bytes": 1944
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/metadata.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/metadata.py",
+      "sha256": "534f114d141db35721d16874acaea8df2284eaadaabca4a87cd5350962e13651",
+      "bytes": 10674
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/pipeline.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/pipeline.py",
+      "sha256": "ed4f2d95a82d30b9ec881bc738804d7e203b1467a4e7d2317d60e89d48adc6ca",
+      "bytes": 19113
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/request.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/request.py",
+      "sha256": "e894bf62303be1c4292e1fcf1b084bded9dab7ad36925f460bd7f9cfff452ba1",
+      "bytes": 20984
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/sampling/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/sampling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/sampling/distributions.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/sampling/distributions.py",
+      "sha256": "1bd0f62f67e669c9773f7bf282ca5cbcb03e0c5d0e2d09f83a580214b0e42bfa",
+      "bytes": 7592
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/sampling/policy.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/sampling/policy.py",
+      "sha256": "557791c6ddac1977733d62060d8b76f4e36f9b5844dd00d988c66e5ba7404def",
+      "bytes": 10868
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/sampling/rejection.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/sampling/rejection.py",
+      "sha256": "e125fecd54baf7397470d4efd2512f93c182aac5ad5bd4745fdb16baad263342",
+      "bytes": 10121
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/sampling/sampler.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/sampling/sampler.py",
+      "sha256": "aa21cfc29ae7bb47b1436bf87d269a6735d205ebdb605a36caea5b3052e1e153",
+      "bytes": 35509
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/loopspec/wavefront.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/loopspec/wavefront.py",
+      "sha256": "cba6c1f61ff249ee19d72648137720102edff7b6a5d6d105629d837226b291ba",
+      "bytes": 3478
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/components.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/components.py",
+      "sha256": "91d2c121eeede7d4fd66c0ec05d1cad357028d5cce1b7f662faf1ec4641ed081",
+      "bytes": 7623
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/contracts.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/contracts.py",
+      "sha256": "64088f509d6b093cc6fdc94f75b5c0655a75e34e81cbc8f9e608670a36105db3",
+      "bytes": 2691
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/ouro.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/ouro.py",
+      "sha256": "5dacc26207d559a5156349bb56d0eebaaefc4cdbbde36172c949abb356a12a0d",
+      "bytes": 5160
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/raven.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/raven.py",
+      "sha256": "34b225b870b32826eee6fac97a4984b4170b87b7f26d4c291e195ccfa88b6c0d",
+      "bytes": 6663
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/modeling/serving.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/modeling/serving.py",
+      "sha256": "a40394113f9dfc682cf00730a62f288d0e9bbfa6c739c7af674c76adb32d93de",
+      "bytes": 10741
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/__init__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/__main__.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/__main__.py",
+      "sha256": "c2ee4ddb093c9af060cafaf68219907f8a6b7b301ed3f8bea75db7555adec987",
+      "bytes": 62
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/baseline_scheduler.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/baseline_scheduler.py",
+      "sha256": "38b9b474c0cc804fa1b615db1c3c592b66983eebad1bd08fd121b6c5be207710",
+      "bytes": 5853
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/cli.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/cli.py",
+      "sha256": "ade3f76fd051d31c7aafc575f0da1945f69929f4e48aa2486527f1787baeede7",
+      "bytes": 7123
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/loopspec_runner.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/loopspec_runner.py",
+      "sha256": "d860c32bd2026b558c2d385e813dc16cb07e564373f33931dabbeb9fba903d37",
+      "bytes": 9588
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/loopspec_scheduler.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/loopspec_scheduler.py",
+      "sha256": "c7487b47e648d90973cf5be4fcc6238d86d0fc494f8bb5c5488d55cbd3943ac6",
+      "bytes": 20224
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/sglang_recurrent/server/metrics.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/sglang_recurrent/server/metrics.py",
+      "sha256": "dec5e915d72df3f3de824b276744aff36c0b6ffce87a8acaa595a26c5307dcbd",
+      "bytes": 2337
+    },
+    {
+      "snapshot": "thinking",
+      "path": "backends/thinking/thinking_capacity_hook.py",
+      "source": "scripts/thinking_main_completion_20261027/backends/thinking_chain/thinking_capacity_hook.py",
+      "sha256": "08f7c5fedcd07a7407f48e858ef72d6d8d5c372386c70fcc2858458585522a15",
+      "bytes": 1588
+    }
+  ],
+  "file_count": 223,
+  "total_bytes": 1717435
+}

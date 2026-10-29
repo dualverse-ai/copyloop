@@ -1,0 +1,279 @@
+{
+  "ouro-1.4b": {
+    "backend": "ouro14",
+    "repo": "ByteDance/Ouro-1.4B",
+    "revision": "574fa66cb8bf5abdc979642d01cf2b79b16bfab1",
+    "loops": 4,
+    "screen_depth": 1,
+    "k": 6,
+    "thinking": false,
+    "context_length": 4096,
+    "kv_slots": 37632,
+    "mem_fraction": 0.65,
+    "tasks": {
+      "humaneval": {
+        "budget": 1024,
+        "stop": [
+          "<|endoftext|>",
+          "<|endofmask|>",
+          "</s>",
+          "\nif __name__",
+          "\ndef main(",
+          "\nprint(",
+          "\n# Test",
+          "\nassert ",
+          "\n```"
+        ],
+        "count": 164
+      },
+      "mbppplus": {
+        "budget": 1024,
+        "stop": [
+          "<|endoftext|>",
+          "\n```"
+        ],
+        "count": 378
+      },
+      "gsm8k": {
+        "budget": 1024,
+        "stop": [
+          "Q:",
+          "</s>",
+          "<|im_end|>",
+          "<|endoftext|>"
+        ],
+        "count": 1319
+      },
+      "math500": {
+        "budget": 2048,
+        "stop": [
+          "<|endoftext|>"
+        ],
+        "count": 500
+      }
+    }
+  },
+  "ouro-2.6b": {
+    "backend": "ouro26",
+    "repo": "ByteDance/Ouro-2.6B",
+    "revision": "1ed04250da1a9936042725d302e81c8fa2ab5abd",
+    "loops": 4,
+    "screen_depth": 1,
+    "k": 6,
+    "thinking": false,
+    "context_length": 4096,
+    "kv_slots": 37632,
+    "mem_fraction": 0.65,
+    "tasks": {
+      "humaneval": {
+        "budget": 1024,
+        "stop": [
+          "<|endoftext|>",
+          "<|endofmask|>",
+          "</s>",
+          "\nif __name__",
+          "\ndef main(",
+          "\nprint(",
+          "\n# Test",
+          "\nassert ",
+          "\n```"
+        ],
+        "count": 164
+      },
+      "mbppplus": {
+        "budget": 1024,
+        "stop": [
+          "<|endoftext|>",
+          "\n```"
+        ],
+        "count": 378
+      },
+      "gsm8k": {
+        "budget": 1024,
+        "stop": [
+          "Q:",
+          "</s>",
+          "<|im_end|>",
+          "<|endoftext|>"
+        ],
+        "count": 1319
+      },
+      "math500": {
+        "budget": 2048,
+        "stop": [
+          "<|endoftext|>"
+        ],
+        "count": 500
+      }
+    }
+  },
+  "raven-tinyllama": {
+    "backend": "ouro14",
+    "repo": "smcleish/Recurrent-TinyLlama-3T-train-recurrence-32",
+    "revision": "2579b6a0e9837dcea0f9fcaa85788f74d4a1f2b4",
+    "loops": 32,
+    "screen_depth": 4,
+    "k": 6,
+    "thinking": false,
+    "context_length": 2048,
+    "kv_slots": 1600000,
+    "mem_fraction": 0.85,
+    "tasks": {
+      "humaneval": {
+        "budget": 1024,
+        "stop": [
+          "<|endoftext|>",
+          "<|endofmask|>",
+          "</s>",
+          "\nif __name__",
+          "\ndef main(",
+          "\nprint(",
+          "\n# Test",
+          "\nassert ",
+          "\n```"
+        ],
+        "count": 164
+      },
+      "mbppplus": {
+        "budget": 1024,
+        "stop": [
+          "</s>",
+          "\n```"
+        ],
+        "count": 378
+      },
+      "gsm8k": {
+        "budget": 1024,
+        "stop": [
+          "Q:",
+          "</s>",
+          "<|im_end|>"
+        ],
+        "count": 1319
+      },
+      "math500": {
+        "budget": 1024,
+        "stop": [
+          "</s>"
+        ],
+        "count": 500
+      }
+    }
+  },
+  "huginn-3.5b": {
+    "backend": "huginn",
+    "repo": "tomg-group-umd/huginn-0125",
+    "revision": "bb6621b65e90b6a4b9b29ef88dc83866d450470c",
+    "loops": 32,
+    "screen_depth": 8,
+    "k": 6,
+    "thinking": false,
+    "context_length": 4096,
+    "kv_slots": 120000,
+    "mem_fraction": 0.85,
+    "tasks": {
+      "humaneval": {
+        "budget": 1024,
+        "stop": [
+          "<|end_text|>",
+          "<|end_turn|>"
+        ],
+        "count": 164
+      },
+      "mbppplus": {
+        "budget": 1024,
+        "stop": [
+          "<|end_text|>",
+          "<|end_turn|>"
+        ],
+        "count": 378
+      },
+      "gsm8k": {
+        "budget": 1024,
+        "stop": [
+          "<|end_text|>",
+          "<|end_turn|>"
+        ],
+        "count": 1319
+      },
+      "math500": {
+        "budget": 2048,
+        "stop": [
+          "<|end_text|>",
+          "<|end_turn|>"
+        ],
+        "count": 500
+      }
+    }
+  },
+  "ouro-1.4b-thinking": {
+    "backend": "thinking",
+    "repo": "ByteDance/Ouro-1.4B-Thinking",
+    "revision": "3aaa2224253a92ca45cf2e3d427c360e1ef9c93d",
+    "loops": 4,
+    "screen_depth": 1,
+    "k": 2,
+    "thinking": true,
+    "context_length": 9408,
+    "kv_slots": 37632,
+    "ar_kv_slots": 9408,
+    "mem_fraction": 0.75,
+    "tasks": {
+      "aime2024": {
+        "budget": 8192,
+        "stop": [],
+        "count": 30
+      },
+      "aime2025": {
+        "budget": 8192,
+        "stop": [],
+        "count": 30
+      },
+      "beyondaime": {
+        "budget": 8192,
+        "stop": [],
+        "count": 64
+      },
+      "math500": {
+        "budget": 8192,
+        "stop": [],
+        "count": 64
+      }
+    }
+  },
+  "ouro-2.6b-thinking": {
+    "backend": "thinking",
+    "repo": "ByteDance/Ouro-2.6B-Thinking",
+    "revision": "f1edd81e7ac41355db670500ceaf204e0f73af68",
+    "loops": 4,
+    "screen_depth": 1,
+    "k": 2,
+    "thinking": true,
+    "context_length": 9408,
+    "kv_slots": 37632,
+    "ar_kv_slots": 9408,
+    "mem_fraction": 0.75,
+    "tasks": {
+      "aime2024": {
+        "budget": 8192,
+        "stop": [],
+        "count": 30
+      },
+      "aime2025": {
+        "budget": 8192,
+        "stop": [],
+        "count": 30
+      },
+      "beyondaime": {
+        "budget": 8192,
+        "stop": [],
+        "count": 64
+      },
+      "math500": {
+        "budget": 8192,
+        "stop": [],
+        "count": 64
+      }
+    }
+  }
+}

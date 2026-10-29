@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "copyloop"
+version = "0.1.0"
+description = "CopyLoop recurrent-model decoding and main-experiment reproduction"
+authors = [{name = "Wenyu Du"}, {name = "Stephen Chung"}]
+license = {text = "Original CopyLoop contributions: Apache-2.0. Upstream-derived code: see NOTICE.md."}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+data = ["huggingface-hub==1.33.0", "transformers==5.8.1", "pyarrow>=18", "sentencepiece==0.2.2"]
+eval = ["evalplus==0.3.1", "math-verify==0.9.0", "transformers==5.8.1"]
+
+[project.scripts]
+copyloop = "copyloop.cli:main"
+
+[tool.setuptools]
+license-files = ["LICENSE", "NOTICE.md", "licenses/*.md", "licenses/*.json", "licenses/*.txt"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["copyloop", "copyloop.evaluation", "copyloop.presets"]
+namespaces = false
+
+[tool.setuptools.package-data]
+copyloop = ["presets/*.json", "_backends/**/*.py", "_support/**/*.py"]

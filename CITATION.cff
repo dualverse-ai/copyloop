@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use CopyLoop, please cite the paper listed below."
+type: software
+title: "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening"
+authors:
+  - family-names: Du
+    given-names: Wenyu
+  - family-names: Chung
+    given-names: Stephen
+version: 0.1.0
+preferred-citation:
+  type: generic
+  title: "CopyLoop: Fast Looped Transformer Decoding via Context Copying and Shallow Screening"
+  authors:
+    - family-names: Du
+      given-names: Wenyu
+    - family-names: Chung
+      given-names: Stephen
+  notes: "Submitted. Paper URL: xxx (intentional placeholder; public link pending)."
