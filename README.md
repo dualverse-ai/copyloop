@@ -2,7 +2,7 @@
 
 **Wenyu Du and Stephen Chung**
 
-**Paper:** `xxx` (submitted; public link pending)
+**Paper:** `[https://arxiv.org/abs/2610.38822](https://arxiv.org/abs/2610.38822)`
 
 CopyLoop accelerates recurrent language-model decoding by copying candidate tails
 from context, screening them at an early recurrent depth, and verifying the
@@ -102,13 +102,11 @@ If you use CopyLoop, please cite:
 @misc{du_chung_copyloop,
   title = {{CopyLoop}: Fast Looped Transformer Decoding via Context Copying and Shallow Screening},
   author = {Du, Wenyu and Chung, Stephen},
-  note = {Submitted},
-  url = {xxx}
+  url = {https://arxiv.org/abs/2610.38822}
 }
 ```
 
-The paper link `xxx` is an intentional placeholder while the submission is
-pending. Machine-readable metadata is available
+Machine-readable metadata is available
 in [CITATION.cff](CITATION.cff).
 
 ## License and acknowledgments
