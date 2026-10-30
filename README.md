@@ -14,6 +14,8 @@ The paper reports **2.98×–10.70× decode-throughput speedups on Base models**
 and **2.74×–3.52× on Thinking models**, relative to full-depth AR across six
 checkpoints from Ouro, Raven and Huginn. 
 
+**Autonomous Research Program:** This work extends a human-verified finding made by an [Station](https://dualverse.ai/station) agent as part of our [Autonomous Research Program](https://dualverse.ai/auto_research). The [original agent paper](https://dualverse.ai/copyloop/4/) is available on Station. See the paper’s AI Use section for a discussion of AI use.
+
 This repository contains the single-checkpoint decoder and scripts for its main
 benchmarks. AR is included as the throughput reference. The public command line
 exposes AR and CopyLoop; calibration sweeps, adaptive controllers, ablations and
