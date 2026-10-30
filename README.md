@@ -2,7 +2,9 @@
 
 **Wenyu Du and Stephen Chung**
 
-**Paper:** `[https://arxiv.org/abs/2610.38822](https://arxiv.org/abs/2610.38822)`
+**Dualverse AI**
+
+**Paper:** [https://arxiv.org/abs/2610.38822](https://arxiv.org/abs/2610.38822)
 
 CopyLoop accelerates recurrent language-model decoding by copying candidate tails
 from context, screening them at an early recurrent depth, and verifying the
@@ -10,7 +12,7 @@ surviving continuation at full depth.
 
 The paper reports **2.98×–10.70× decode-throughput speedups on Base models**
 and **2.74×–3.52× on Thinking models**, relative to full-depth AR across six
-checkpoints from Ouro, Raven and Huginn. See the [paper abstract](docs/paper.md).
+checkpoints from Ouro, Raven and Huginn. 
 
 This repository contains the single-checkpoint decoder and scripts for its main
 benchmarks. AR is included as the throughput reference. The public command line
